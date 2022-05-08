@@ -1,0 +1,38 @@
+.features{
+    background: url(../../assets/banner03.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.features h1{
+    margin-top: 3rem;
+}
+.features p{
+    margin-top: 1rem;
+    max-width: 600px;
+    text-align: center;
+}
+.images{
+    display: flex;
+}
+.react, .js{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+.react img, .js img{
+    width: 150px;
+}
+.react p, .js p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

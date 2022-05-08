@@ -1,0 +1,23 @@
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.download__info{
+    justify-content: center;
+    text-align: center;
+}
+.download__info h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.download__info p{
+    margin-top: 1rem;
+    max-width: 600px;
+    text-align: center;
+}
+.download__info img{
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+.first{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(../../assets/banner.svg) no-repeat;
+    background-size: cover;
+}
+.first__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.first__info h1{
+    margin: 1rem 0;
+    color: white;
+}
+.first__info h3{
+    margin: 1rem 0;
+}
+
+.first__info_button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first__info_button img{
+    height: 25px;
+    margin-right: 1rem;
+}
+
+.first__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first__img img{
+    width: 80%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .first{
+        flex-direction: column;
+    }
+    .first__info{
+        align-items:center;
+    }
+}
